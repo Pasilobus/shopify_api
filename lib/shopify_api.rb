@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 $:.unshift(File.dirname(__FILE__))
 require 'active_resource'
-require 'active_support/core_ext/class/attribute_accessors'
+require 'active_support'
 require 'digest/md5'
 require 'base64'
 require 'active_resource/detailed_log_subscriber'
