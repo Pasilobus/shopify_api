@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     shopify_api (9.5)
-      activeresource (>= 4.1.0, < 6.0.0)
+      activeresource
       graphql-client
       rack
 
@@ -135,10 +135,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activeresource (~> 5.1)
+  activeresource
   jekyll
-  minitest (>= 5.14)
-  mocha (>= 1.4.0)
+  minitest
+  mocha
   pry
   pry-byebug
   rake
@@ -148,4 +148,4 @@ DEPENDENCIES
   webmock
 
 BUNDLED WITH
-   2.2.22
+   2.3.4
